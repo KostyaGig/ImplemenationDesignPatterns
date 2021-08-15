@@ -1,0 +1,15 @@
+name: MainAction
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+
+  junit_test_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prin first message
+        run: echo "Hello from intelej idea"

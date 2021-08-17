@@ -1,5 +1,3 @@
-package test
-
 import org.junit.Test
 import org.junit.jupiter.api.Assertions.*
 
@@ -7,7 +5,7 @@ internal class TestClassTest {
 
     @Test
     fun test() {
-        assertEquals(4,2 + 2)
+        assertEquals(3,2 + 2)
     }
 
     @Test
